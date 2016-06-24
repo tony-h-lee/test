@@ -1,0 +1,170 @@
+.search {
+	width: 600px;
+	height: 30px;
+	font-size: 1.5em;
+	transition: 1s;
+	outline: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.search:hover {
+	border: 1px solid grey;
+}
+
+.search:focus, .search:active {
+	outline: none;
+	border: 1px solid #338AFF;
+
+}
+.google {
+	width: 480px;
+	height: 280px;
+	position: absolute;
+	top: 15%;
+	right: 30%;
+}
+
+
+
+.gmail {
+	position: absolute;
+	left: 82%;
+	bottom: 94%;
+	font-family: sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+}
+.images {
+	position: absolute;
+	left: 86%;
+	bottom: 94%;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+
+}
+.canada {
+	color: #4285f4;
+	font-size: 17px;
+	font-family: sans-serif;
+	position: absolute;
+	left: 58%;
+	bottom: 54%;
+
+}
+
+.signin {
+	text-decoration: none;
+	margin-left: 93%;
+	position: absolute;
+	bottom: 93%;
+	background-color: #4285f4;
+	color: white;
+	font-size: 14px;
+	background-size: 10px;
+	width: 69.34px;
+	text-align: center;
+	height:30px;
+	text-transform: 50%;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: 0.5px solid #4285f4;
+	vertical-align: middle;
+	border-radius: 2px;
+}
+.signin:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.gmail:hover {
+	text-decoration: underline;
+	color: black;
+}
+.images:hover {
+	text-decoration: underline;
+	color: black;
+}
+.imfeelinglucky {
+	color:black;
+	background-color: #f2f2f2;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #757575;
+	border-radius: 2px;
+	position: absolute;
+	top: 55.5%;
+	right: 37%;
+	width: 135px;
+	font-size: 13px;
+	font-weight:bold;
+	height:45px;
+	text-align: center;
+
+}
+.googlesearch {
+	color:black;
+	background-color:#f2f2f2;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #757575;
+	border-radius: 2px;
+	position: absolute;
+	top: 54%;
+	left: 40%;
+	width: 135px;
+	font-size: 13px;
+	font-weight: bold;
+	height: 45px;
+	margin: 11px 4px;
+	text-align: center;
+
+}
+#abc:hover {
+	text-decoration: none;
+	color: black;
+	border: 1px solid #C0C0C0;
+
+}
+#abc:focus, .search:active {
+	outline: none;
+	border: 1px solid #338AFF;
+	color: black;
+	text-decoration: none;
+}
+.col-sm-1 {
+	margin-top: 550px;
+	display:inline;
+	background-color:#f2f2f2;
+	padding: 4px 16px 16px 4px;
+
+}
+.col-sm-1 a {
+	padding-top:10px 10px 5px 5px;
+	color: #757575;
+	font-family:sans-serif;
+	font-size:14px;
+	width: 24px;
+}
+.col-sm-1 a:hover {
+	text-decoration: underline;
+	color: #757575;
+}
+.col-sm-1 a:focus {
+	color:red;
+	text-decoration: underline;
+}
+
+
+.col-sm-6 {
+	background-color:#f2f2f2;
+	margin-top: 550px;
+	color:#f2f2f2;
+	font-family: sans-serif;
+	padding: 20px 10px 20px 10px;
+
+}
